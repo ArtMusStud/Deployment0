@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: nigelpoulton/k8sbook:1.0
+        image: alpine/git:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 80

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: nginx:1.14.2
+        image: index.docker.io/arturmus/docsy:01
         ports:
         - containerPort: 80

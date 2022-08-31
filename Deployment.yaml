@@ -19,5 +19,5 @@ spec:
         image: index.docker.io/arturmus/docsy:01
         ports:
         - containerPort: 80
-    imagePullSecrets:
-    - name: docker-credentials
+      imagePullSecrets:
+      - name: docker-credentials

@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: app
-        image: index.docker.io/arturmus/docsy:01
+        image: index.docker.io/arturmus/nginx:01
         ports:
         - containerPort: 80
       imagePullSecrets:
-      - name: docker-credentials
+      - name: regcred 

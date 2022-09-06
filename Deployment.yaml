@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: index.docker.io/arturmus/nginx:01
+        image: index.docker.io/arturmus/nginx:c865348851c34b9869c3536562bc3b44ce53d4b7
         ports:
         - containerPort: 80
       imagePullSecrets:
